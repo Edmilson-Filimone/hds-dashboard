@@ -2,7 +2,7 @@ function App() {
 
   return (
     <>
-      <h1 className="text-2xl font-mono font-semibold text-center">HDS-Dashboard</h1>
+      <h1 className="text-2xl font-semibold text-center dark">HDS-Dashboard</h1>
     </>
   )
 }
