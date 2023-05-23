@@ -11,7 +11,7 @@ export default {
         "secondary":"#FFFFFF",
         "sidebar":"#313131",
         "sidebar-hover":"#626262",
-        "sidebar-clicked":"#B2B2B2",
+        "sidebar-clicked":"#616161",
         "dark-mode":"#202124",
         "gray-shadow":"#DDDDDD",
         "card-label":"#9A9A9A",
