@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <section className={`md:grid ${collapse} m-0 gap-2 grid-rows-size`}>
+    <section className={`md:grid ${collapse} mx-2 md:mr-2 md:ml-0 gap-2 grid-rows-size`}>
       <div className="col-span-1 row-span-3"><Sidebar layout={changeLayout}/></div>
       <section className="col-start-2 col-span-4 row-span-full">
         <Navbar/>

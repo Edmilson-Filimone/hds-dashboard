@@ -18,7 +18,7 @@ export default {
         "card-value":"#333333",
         "title":"#333333",
         "sub-title":"#9A9A9A",
-        "border":"#DFDFDF",
+        "outline":"#DFDFDF",
       },
     },
   },
