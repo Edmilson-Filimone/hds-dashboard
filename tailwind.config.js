@@ -12,6 +12,7 @@ export default {
         "sidebar":"#313131",
         "sidebar-hover":"#626262",
         "sidebar-clicked":"#616161",
+        "btn-clicked":"#626262",
         "dark-mode":"#202124",
         "gray-shadow":"#DDDDDD",
         "card-label":"#9A9A9A",
