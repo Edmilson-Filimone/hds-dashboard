@@ -9,7 +9,7 @@ function ChartBar() {
             <YAxis/>
             <Tooltip/>
             <CartesianGrid strokeDasharray="3 3"/>
-            <Bar  dataKey="HouseHold" stroke="#8884d8" fill="#8884d8"/>
+            <Bar  dataKey="HouseHold" stroke="#99c1f1" fill="#99c1f1"/>
           </BarChart>
     </ResponsiveContainer>)
     }

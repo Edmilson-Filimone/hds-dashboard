@@ -8,12 +8,14 @@ import { useState } from "react"
 import ChartContainer from "../components/ChartContainer"
 import ChartLine from "../components/ChartLine"
 import ChartBar from "../components/ChartBar"
+import { Table } from "../components/Table"
+import { dataB } from "../../public/mockData"
 
 function Home() {
   //State to control expand card area
   const [expandCardArea, setExpandCardArea] = useState(false) 
   return (
-    <section>
+    <section className="px-5">
       <div className="cards">
         <section className="grid gap-5 md:w-fit xl:w-full md:grid-cols-2 xl:flex xl:justify-between xl:mx-auto max-w-[2400px]">
           <Card label={'Household Registration'} value={45} balance={23} icon={<BsHouseAdd className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-orange-300'}/>
@@ -47,7 +49,10 @@ function Home() {
             <ChartLine/>
           </ChartContainer>
         </section>
-          
+        {/*Table*/}
+        <section className="overflow-auto my-6">
+          <Table dataList={dataB}/>  
+        </section>
       </div>
     </section>
   )

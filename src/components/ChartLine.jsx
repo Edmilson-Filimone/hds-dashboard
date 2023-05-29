@@ -9,7 +9,7 @@ function ChartLine() {
             <YAxis/>
             <Tooltip/>
             <CartesianGrid strokeDasharray="2 2"/>
-            <Line type="monotone" dataKey="HouseHold" stroke="#8884d8" />
+            <Line type="monotone" dataKey="HouseHold" stroke="#62a0ea" />
           </LineChart>
     </ResponsiveContainer>
   )
