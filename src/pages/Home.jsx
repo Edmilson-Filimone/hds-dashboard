@@ -10,6 +10,7 @@ import ChartLine from "../components/ChartLine"
 import ChartBar from "../components/ChartBar"
 import { Table } from "../components/Table"
 import { dataB } from "../../public/mockData"
+import ChartPie from "../components/ChartPie"
 
 function Home() {
   //State to control expand card area
@@ -41,17 +42,16 @@ function Home() {
           {expandCardArea ? <MdExpandLess className="text-3xl text-title"/> : <MdExpandMore className="text-3xl text-title"/>}
         </button>
         {/*Charts*/}
-        <section className="w-full flex flex-wrap xl:flex-nowrap gap-6 ">
-          <ChartContainer>
-            <ChartBar/>
-          </ChartContainer>
-          <ChartContainer>
-            <ChartLine/>
-          </ChartContainer>
+        <section className="w-full flex flex-wrap xl:flex-nowrap gap-6 mb-6">
+          <ChartContainer chart={<ChartPie/>} type="pie"/>
+          <ChartContainer chart={<ChartBar/>} type="bar"/>
+        </section>
+        <section>
+          <ChartContainer chart={<ChartLine/>}/>
         </section>
         {/*Table*/}
         <section className="overflow-auto my-6">
-          <Table dataList={dataB}/>  
+          <Table dataList={dataB}/>
         </section>
       </div>
     </section>
