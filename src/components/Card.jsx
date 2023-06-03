@@ -4,8 +4,8 @@ import {AiOutlineCheck, AiOutlineClose} from 'react-icons/ai'
 
 function Card({label, value, icon, iconBg, iconColor}) {
   return (
-    <div className='my-6 border border-outline rounded-sm '>
-      <ul className='w-full md:w-[250px] h-[140px] 2xl:w-[310px] p-4 bg-white shadow-none'>
+    <div className='my-6 border border-outline rounded-sm shadow-xl'>
+      <ul className='w-full md:w-[250px] h-[140px] 2xl:w-[310px] p-4 bg-white'>
         <li className='flex justify-between mb-2'>
           <span className={`relative flex justify-center items-center w-[65px] h-[65px] text-[28px] rounded-sm shadow-none ${iconBg} ${iconColor}`}>{icon}</span>
           <div>

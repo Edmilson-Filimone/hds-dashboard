@@ -38,7 +38,7 @@ function Home() {
             <span className="placeholder w-[300px]"></span>
           </section>
         </div>
-        <button className="flex justify-center items-center my-2 mx-auto w-[50px] h-[30px] border border-outline rounded-sm bg-white" title={expandCardArea ? 'Collapse': 'Expand'} onClick={()=> setExpandCardArea(!expandCardArea)}>
+        <button className="flex justify-center items-center my-2 mx-auto w-[50px] h-[30px] border border-outline rounded-sm bg-white shadow-xl" title={expandCardArea ? 'Collapse': 'Expand'} onClick={()=> setExpandCardArea(!expandCardArea)}>
           {expandCardArea ? <MdExpandLess className="text-3xl text-title"/> : <MdExpandMore className="text-3xl text-title"/>}
         </button>
         {/*Charts*/}
