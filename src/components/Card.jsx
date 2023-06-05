@@ -7,7 +7,7 @@ function Card({label, value, icon, iconBg, iconColor}) {
     <div className='my-6 border border-outline rounded-sm shadow-xl'>
       <ul className='w-full md:w-[250px] h-[140px] 2xl:w-[310px] p-4 bg-white'>
         <li className='flex justify-between mb-2'>
-          <span className={`relative flex justify-center items-center w-[65px] h-[65px] text-[28px] rounded-sm shadow-none ${iconBg} ${iconColor}`}>{icon}</span>
+          <span className={`relative flex justify-center items-center w-[65px] h-[65px] text-[28px] rounded-full shadow-xl border ${iconBg} ${iconColor}`}>{icon}</span>
           <div>
             <span className='block text-right text-card-label text-[15px]'>{label}</span>
             <span className='block text-right text-card-value text-2xl'>{value}</span>

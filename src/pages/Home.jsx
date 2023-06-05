@@ -19,21 +19,21 @@ function Home() {
     <section className="px-5">
       <div className="cards">
         <section className="grid gap-5 md:w-fit xl:w-full md:grid-cols-2 xl:flex xl:justify-between xl:mx-auto max-w-[2400px]">
-          <Card label={'Household Registration'} value={45} balance={23} icon={<BsHouseAdd className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-orange-300'}/>
-          <Card label={'Household Visit'} value={45} balance={23} icon={<BsHouseCheck className="text-[42px] font-thin"/>} iconBg={'bg-white'} iconColor={'text-emerald-300'}/>
-          <Card label={'Member Enumeration'} value={45} balance={23} icon={<AiOutlineUserAdd className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-red-300'}/>
-          <Card label={'Change Head Household'} value={45} balance={23} icon={<AiOutlineUserSwitch className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-blue-300'}/>
+          <Card label={'Household Registration'} value={45} balance={23} icon={<BsHouseAdd className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-orange-400'}/>
+          <Card label={'Household Visit'} value={45} balance={23} icon={<BsHouseCheck className="text-[42px] font-thin"/>} iconBg={'bg-white'} iconColor={'text-emerald-400'}/>
+          <Card label={'Member Enumeration'} value={45} balance={23} icon={<AiOutlineUserAdd className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-red-400'}/>
+          <Card label={'Change Head Household'} value={45} balance={23} icon={<AiOutlineUserSwitch className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-blue-400'}/>
         </section>
         <div className={`card-wrapper ${expandCardArea == true ? 'block' : 'hidden'}`}>
           <section className="grid gap-5 md:w-fit xl:w-full md:grid-cols-2 xl:flex xl:justify-between xl:mx-auto max-w-[2400px]">
-            <Card label={'Marital Relationship'} value={45} balance={23} icon={<BsPeople className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-orange-300'}/>
-            <Card label={'External InMigration'} value={45} balance={23} icon={<HiOutlineLogout className="text-[42px] font-thin"/>} iconBg={'bg-white'} iconColor={'text-emerald-300'}/>
-            <Card label={'Internal InMigration'} value={45} balance={23} icon={<HiOutlineLogin className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-red-300'}/>
-            <Card label={'Death Registration'} value={45} balance={23} icon={<AiOutlineUserDelete className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-blue-300'}/>
+            <Card label={'Marital Relationship'} value={45} balance={23} icon={<BsPeople className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-orange-400'}/>
+            <Card label={'External InMigration'} value={45} balance={23} icon={<HiOutlineLogout className="text-[42px] font-thin"/>} iconBg={'bg-white'} iconColor={'text-emerald-400'}/>
+            <Card label={'Internal InMigration'} value={45} balance={23} icon={<HiOutlineLogin className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-red-400'}/>
+            <Card label={'Death Registration'} value={45} balance={23} icon={<AiOutlineUserDelete className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-blue-400'}/>
           </section>
           <section className="grid gap-5 md:w-fit xl:w-full md:grid-cols-2 xl:flex xl:justify-between xl:mx-auto max-w-[2400px]">
-            <Card label={'Pregnancy Registration'} value={45} balance={23} icon={<MdOutlinePregnantWoman className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-orange-300'}/>
-            <Card label={'Birth Registration'} value={45} balance={23} icon={<BiChild className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-emerald-300'}/>
+            <Card label={'Pregnancy Registration'} value={45} balance={23} icon={<MdOutlinePregnantWoman className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-orange-400'}/>
+            <Card label={'Birth Registration'} value={45} balance={23} icon={<BiChild className="text-[42px] font-thin "/>} iconBg={'bg-white'} iconColor={'text-emerald-400'}/>
             <span className="placeholder w-[300px]"></span>
             <span className="placeholder w-[300px]"></span>
           </section>

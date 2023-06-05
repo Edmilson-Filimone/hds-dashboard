@@ -9,7 +9,7 @@ const data = [
   { name: 'Errors', value: 300 },
 ];
 
-const COLORS = [' #86e2b1', '#99c1f1', '#c7abe9', '#FF8042', '#d9dbe7'];
+const COLORS = ['#34D399', '#5490DB', '#8f44f2', '#FF8042', '#d9dbe7'];
     return (
       <ResponsiveContainer width="100%" height="100%">
         <PieChart width={380} height={380}>
