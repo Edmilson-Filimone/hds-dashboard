@@ -8,6 +8,7 @@ import Playground from "./pages/Playground";
 
 function App() {
   //collapse sidebar function that will be passed and triggered in child component, basically readjust the grid layout on main page (parent)
+  // eslint-disable-next-line no-unused-vars
   const [collapse, setCollapse] = useState('sidebar-expand')
   const changeLayout = (collapseState) => {
     setCollapse(collapseState)
@@ -15,8 +16,8 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <section className={`md:grid ${collapse} mx-2 md:mr-2 md:ml-0 gap-2 grid-rows-size`}>
-      <div className="col-span-1 row-span-3"><Sidebar layout={changeLayout}/></div>
+    <section>
+      <div className="col-span-1 row-span-3 hidden"><Sidebar layout={changeLayout}/></div>
       <section className="col-start-2 col-span-4 row-span-full">
         <Navbar/>
         <Routes>

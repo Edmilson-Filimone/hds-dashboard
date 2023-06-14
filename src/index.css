@@ -36,14 +36,19 @@ body{
     @apply shadow-2xl bg-main rounded-md border
 }
 
+
+
 /**APP LAYOUT*/
 
-.sidebar-expand{
+/* Enable this styles only if sidebar is not hidden */
+/* .sidebar-expand{
     grid-template-columns: 270px repeat(4, 1fr);
 }
 .sidebar-collapse{
     grid-template-columns: 87px repeat(4, 1fr);
-}
+} */
+
+
 
 /*Removing scrollbar*/
 
