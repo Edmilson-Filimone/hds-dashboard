@@ -9,6 +9,7 @@
 /** ADDITIONAL CSS*/
 body{
     font-family:'Roboto', sans-serif;
+    color: #344771;
     @apply bg-main overflow-x-hidden
 }
 
