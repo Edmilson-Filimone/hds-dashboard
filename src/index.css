@@ -42,12 +42,12 @@ body{
 /**APP LAYOUT*/
 
 /* Enable this styles only if sidebar is not hidden */
-/* .sidebar-expand{
+ .sidebar-expand{
     grid-template-columns: 270px repeat(4, 1fr);
 }
 .sidebar-collapse{
     grid-template-columns: 87px repeat(4, 1fr);
-} */
+}
 
 
 

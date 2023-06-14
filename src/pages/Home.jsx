@@ -62,13 +62,13 @@ function Home() {
         {/*Charts*/}
         <section className="w-full flex flex-wrap xl:flex-nowrap gap-6 mb-6">
           <ChartContainer chart={<ChartPie/>} type="pie"/>
-          <ChartContainer chart={<ChartBar/>} type="bar"/>
+          <ChartContainer chart={<ChartBar/>} type="bar" controls={true}/>
         </section>
       </div>
       <div className="block-3 my-3">
         <h3 className="text-title-alt text-lg font-semibold">Fieldworkers Performance</h3>
         <section className="my-3">
-          <ChartContainer chart={<ChartLine/>}/>
+          <ChartContainer chart={<ChartLine/>} type={'pie'}/>
           </section>
           {/*Table*/}
           <section className="overflow-auto my-6">

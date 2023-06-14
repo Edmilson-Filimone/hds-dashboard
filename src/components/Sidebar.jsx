@@ -10,6 +10,7 @@ import {BiChild} from 'react-icons/bi'
 
 function Sidebar({layout}) {
   
+  // eslint-disable-next-line no-unused-vars
   const navigate = useNavigate()
   const location = (path) => {
     const currentpath = useLocation()
@@ -44,47 +45,47 @@ const [showMenu, setShowMenu] = useState(false)
       </div>
       <nav>
         <ul className={`${!showMenu ? 'hidden': 'block h-screen mt-10'} md:block`}>
-          <li className={`sidebar-item ${location('')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} onClick={()=>{navigate('/'); setShowMenu(false)}}>
+          <li className={`sidebar-item ${location('')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} /*onClick={()=>{navigate('/'); setShowMenu(false)}}*/>
             <HiOutlineChartPie className={collapse? 'sidebar-collapsed-icon' : 'sidebar-icon'}/>
             <span className={collapse ? 'hidden': ''}>Data collection status</span>
           </li>
-          <li className={`sidebar-item ${location('household-registration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} onClick={()=>{navigate('/household-registration'); setShowMenu(false)}}>
+          <li className={`sidebar-item ${location('household-registration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} /*onClick={()=>{navigate('/household-registration'); setShowMenu(false)}}*/>
             <BsHouseAdd className={collapse? 'sidebar-collapsed-icon' : 'sidebar-icon'}/>
             <span className={collapse ? 'hidden': ''}>Household Registration</span>
           </li>
-          <li className={`sidebar-item ${location('household-visit')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} onClick={()=>{navigate('/household-visit') ; setShowMenu(false)}}>
+          <li className={`sidebar-item ${location('household-visit')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} /*onClick={()=>{navigate('/household-visit') ; setShowMenu(false)}}*/>
             <BsHouseCheck className={collapse? 'sidebar-collapsed-icon' : 'sidebar-icon'}/>
             <span className={collapse ? 'hidden': ''}>Household Visit</span>
           </li>
-          <li className={`sidebar-item ${location('member-enumeration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} onClick={()=>{navigate('/member-enumeration') ; setShowMenu(false)}}>
+          <li className={`sidebar-item ${location('member-enumeration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} /*onClick={()=>{navigate('/member-enumeration') ; setShowMenu(false)}}*/>
             <AiOutlineUserAdd className={collapse? 'sidebar-collapsed-icon' : 'sidebar-icon'}/>
             <span className={collapse ? 'hidden': ''}>Member Enumeration</span>
           </li>
-          <li className={`sidebar-item ${location('change-head-household')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} onClick={()=>{navigate('/change-head-household') ; setShowMenu(false)}}>
+          <li className={`sidebar-item ${location('change-head-household')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} /*onClick={()=>{navigate('/change-head-household') ; setShowMenu(false)}}*/>
             <AiOutlineUserSwitch className={collapse? 'sidebar-collapsed-icon' : 'sidebar-icon'}/>
             <span className={collapse ? 'hidden': ''}>Change Head Household</span>
           </li>
-          <li className={`sidebar-item ${location('marital-relationship')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} onClick={()=>{navigate('/marital-relationship') ; setShowMenu(false)}}>
+          <li className={`sidebar-item ${location('marital-relationship')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} /*onClick={()=>{navigate('/marital-relationship') ; setShowMenu(false)}}*/>
             <BsPeople className={collapse? 'sidebar-collapsed-icon' : 'sidebar-icon'}/>
             <span className={collapse ? 'hidden': ''}>Marital Relationship</span>
           </li>
-          <li className={`sidebar-item ${location('external-in-migration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} onClick={()=>{navigate('/external-in-migration') ; setShowMenu(false)}}>
+          <li className={`sidebar-item ${location('external-in-migration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} /*onClick={()=>{navigate('/external-in-migration') ; setShowMenu(false)}}*/>
             <HiOutlineLogout className={collapse? 'sidebar-collapsed-icon' : 'sidebar-icon'}/>
             <span className={collapse ? 'hidden': ''}>External InMigration</span>
           </li>
-          <li className={`sidebar-item ${location('internal-in-migration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} onClick={()=>{navigate('/internal-in-migration') ; setShowMenu(false)}}>
+          <li className={`sidebar-item ${location('internal-in-migration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} /*onClick={()=>{navigate('/internal-in-migration') ; setShowMenu(false)}}*/>
             <HiOutlineLogin className={collapse? 'sidebar-collapsed-icon' : 'sidebar-icon'}/>
             <span className={collapse ? 'hidden': ''}>Internal InMigration</span>
           </li>
-          <li className={`sidebar-item ${location('death-registration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} onClick={()=>{navigate('/death-registration') ; setShowMenu(false)}}>
+          <li className={`sidebar-item ${location('death-registration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} /*onClick={()=>{navigate('/death-registration') ; setShowMenu(false)}}*/>
             <AiOutlineUserDelete className={collapse? 'sidebar-collapsed-icon' : 'sidebar-icon'}/>
             <span className={collapse ? 'hidden': ''}>Death Registration</span>
           </li>
-          <li className={`sidebar-item ${location('pregnancy-registration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} onClick={()=>{navigate('/pregnancy-registration') ; setShowMenu(false)}}>
+          <li className={`sidebar-item ${location('pregnancy-registration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} /*onClick={()=>{navigate('/pregnancy-registration') ; setShowMenu(false)}}*/>
             <MdOutlinePregnantWoman className={collapse? 'sidebar-collapsed-icon' : 'sidebar-icon'}/>
             <span className={collapse ? 'hidden': ''}>Pregnancy Registration</span>
           </li>
-          <li className={`sidebar-item ${location('birth-registration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} onClick={()=>{navigate('/birth-registration') ; setShowMenu(false)}}>
+          <li className={`sidebar-item ${location('birth-registration')?'bg-sidebar-clicked hover:bg-sidebar-hover shadow-2xl font-semibold':'bg-transparent font-thin'}`} /*onClick={()=>{navigate('/birth-registration') ; setShowMenu(false)}}*/>
             <BiChild className={collapse? 'sidebar-collapsed-icon' : 'sidebar-icon'}/>
             <span className={collapse ? 'hidden': ''}>Birth Registration</span>
           </li>
