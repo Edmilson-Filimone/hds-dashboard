@@ -14,6 +14,7 @@ import { Table } from "../components/Table"
 import { dataB } from "../../public/mockData"
 import ChartPie from "../components/ChartPie"
 import CardMain from "../components/CardMain"
+import ChartPyramid from "../components/ChartPyramid"
 
 function Home() {
   //State to control expand card area
@@ -30,8 +31,8 @@ function Home() {
           <CardMain label={'Total Deaths'} value={4270} icon={<RiUserUnfollowFill className="text-[25px] font-thin text- "/>} iconBg={'bg-rose-800'} genderStatus={true}/>
         </section>
         <section className="w-full flex flex-wrap xl:flex-nowrap gap-6 mb-6">
-          <ChartContainer chart={<div className="h-[300px]"></div>} type="pie"/>
-          <ChartContainer chart={<div className="h-[300px]"></div>} type="bar"/>
+          <ChartContainer chart={<ChartPie/>} type="pie"/>
+          <ChartContainer chart={<ChartPyramid />} type="bar" />
         </section>
       </div>
       <div className="block-2">

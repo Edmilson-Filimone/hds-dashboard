@@ -6,7 +6,7 @@ function ChartContainer({chart, type, controls}) {
     const[category, setCategory] = useState('total')
   return (
     <>
-        <section className="w-full h-[450px] border border-outline bg-white flex flex-col justify-between px-2 pt-14 rounded-xl shadow-xl">
+        <section className="w-full h-[450px] border border-outline bg-white flex flex-col justify-between items-center px-2 pt-14 rounded-xl shadow-xl">
             {chart}
             {controls && 
             (<ul className={`Buttons mx-auto text-[12px] relative flex flex-nowrap w-fit `}>
