@@ -11,7 +11,7 @@ const data = [
 
 const COLORS = ['#34D399', '#5490DB', '#8f44f2', '#FF8042', '#d9dbe7'];
     return (
-      <ResponsiveContainer width="100%" height="100%">
+      <ResponsiveContainer width="95%" height="80%">
         <PieChart width={380} height={380}>
           <Pie
             data={data}

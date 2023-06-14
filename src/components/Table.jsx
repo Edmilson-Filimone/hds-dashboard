@@ -10,7 +10,7 @@ export function Table({dataList}){
     }
 
     return (
-        <section className="overflow-auto">
+        <section className="overflow-auto bg-white shadow-xl border border-outline">
             <table className="w-full table-auto border-collapse my-10 text-sm">
                 <thead>
                     <tr>
@@ -37,7 +37,7 @@ export function Table({dataList}){
                     </tr>)
                     )}
             </tbody>
-            <div className="flex items-center gap-2 mt-4 text-title">
+            <div className="flex items-center gap-2 mt-4 pl-2 text-title">
                 <label htmlFor="row">Rows</label>
                 <input className="border border-outline p-1.5 w-16" type="number" name="row" id="1" value={maxRow} onChange={handleMaxRowChange}/>
             </div>
