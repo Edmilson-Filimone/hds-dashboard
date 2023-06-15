@@ -31,8 +31,8 @@ function Home() {
           <CardMain label={'Total Deaths'} value={4270} icon={<RiUserUnfollowFill className="text-[25px] font-thin text- "/>} iconBg={'bg-rose-800'} genderStatus={true}/>
         </section>
         <section className="w-full flex flex-wrap xl:flex-nowrap gap-6 mb-6">
-          <ChartContainer chart={<ChartPie/>} type="pie"/>
-          <ChartContainer chart={<ChartPyramid />} type="bar" />
+          <ChartContainer chart={<ChartPie/>} type="pie" label={"Out events status"}/>
+          <ChartContainer chart={<ChartPyramid />} type="bar" label={"Population by age and gender"}/>
         </section>
       </div>
       <div className="block-2">
@@ -62,14 +62,14 @@ function Home() {
         </button>
         {/*Charts*/}
         <section className="w-full flex flex-wrap xl:flex-nowrap gap-6 mb-6">
-          <ChartContainer chart={<ChartPie/>} type="pie"/>
-          <ChartContainer chart={<ChartBar/>} type="bar" controls={true}/>
+          <ChartContainer chart={<ChartPie/>} type="pie" label={"Data validation status"}/>
+          <ChartContainer chart={<ChartBar/>} type="bar" controls={true} label={"Data collection status per form"}/>
         </section>
       </div>
       <div className="block-3 my-3">
         <h3 className="text-title-alt text-lg font-semibold">Fieldworkers Performance</h3>
         <section className="my-3">
-          <ChartContainer chart={<ChartLine/>} type={'pie'}/>
+          <ChartContainer chart={<ChartLine/>} type={'pie'} label={"Fieldworker performance in last 30 days"}/>
           </section>
           {/*Table*/}
           <section className="overflow-auto my-6">
