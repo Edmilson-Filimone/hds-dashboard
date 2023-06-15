@@ -8,13 +8,13 @@ import {FaHouseUser} from 'react-icons/fa'
 import {BiChild} from 'react-icons/bi'
 import { useState } from "react"
 import ChartContainer from "../components/ChartContainer"
-import ChartLine from "../components/ChartLine"
 import ChartBar from "../components/ChartBar"
 import { Table } from "../components/Table"
 import { dataB } from "../../public/mockData"
 import ChartPie from "../components/ChartPie"
 import CardMain from "../components/CardMain"
 import ChartPyramid from "../components/ChartPyramid"
+import LineChartContainer from "../components/LineChartContainer"
 
 function Home() {
   //State to control expand card area
@@ -69,7 +69,7 @@ function Home() {
       <div className="block-3 my-3">
         <h3 className="text-title-alt text-lg font-semibold">Fieldworkers Performance</h3>
         <section className="my-3">
-          <ChartContainer chart={<ChartLine/>} type={'pie'} label={"Fieldworker performance in last 30 days"}/>
+          <LineChartContainer/>
           </section>
           {/*Table*/}
           <section className="overflow-auto my-6">

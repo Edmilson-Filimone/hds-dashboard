@@ -837,3 +837,706 @@ export const dataD = [
     Status: "Pending",
   },
 ];
+
+export const dataE = [
+  {
+    "id": 1,
+    "name": "John Doe",
+    "gender": "Male",
+    "total": 32,
+    "date": "19/07/2022"
+  },
+  {
+    "id": 2,
+    "name": "John Doe",
+    "gender": "Male",
+    "total": 165,
+    "date": "10/12/2022"
+  },
+  {
+    "id": 3,
+    "name": "John Doe",
+    "gender": "Male",
+    "total": 218,
+    "date": "23/01/2023"
+  },
+  {
+    "id": 4,
+    "name": "John Doe",
+    "gender": "Male",
+    "total": 99,
+    "date": "11/06/2023"
+  },
+  {
+    "id": 5,
+    "name": "John Doe",
+    "gender": "Male",
+    "total": 204,
+    "date": "26/07/2022"
+  },
+  {
+    "id": 6,
+    "name": "John Doe",
+    "gender": "Male",
+    "total": 77,
+    "date": "15/03/2023"
+  },
+  {
+    "id": 7,
+    "name": "John Doe",
+    "gender": "Male",
+    "total": 132,
+    "date": "01/08/2022"
+  },
+  {
+    "id": 8,
+    "name": "John Doe",
+    "gender": "Male",
+    "total": 39,
+    "date": "02/09/2023"
+  },
+  {
+    "id": 9,
+    "name": "John Doe",
+    "gender": "Male",
+    "total": 176,
+    "date": "26/03/2023"
+  },
+  {
+    "id": 10,
+    "name": "John Doe",
+    "gender": "Male",
+    "total": 215,
+    "date": "10/06/2023"
+  },
+  {
+    "id": 11,
+    "name": "Jane Smith",
+    "gender": "Female",
+    "total": 154,
+    "date": "21/08/2022"
+  },
+  {
+    "id": 12,
+    "name": "Jane Smith",
+    "gender": "Female",
+    "total": 112,
+    "date": "16/06/2023"
+  },
+  {
+    "id": 13,
+    "name": "Jane Smith",
+    "gender": "Female",
+    "total": 229,
+    "date": "05/07/2023"
+  },
+  {
+    "id": 14,
+    "name": "Jane Smith",
+    "gender": "Female",
+    "total": 67,
+    "date": "22/07/2022"
+  },
+  {
+    "id": 15,
+    "name": "Jane Smith",
+    "gender": "Female",
+    "total": 32,
+    "date": "01/10/2022"
+  },
+  {
+    "id": 16,
+    "name": "Jane Smith",
+    "gender": "Female",
+    "total": 182,
+    "date": "28/05/2023"
+  },
+  {
+    "id": 17,
+    "name": "Jane Smith",
+    "gender": "Female",
+    "total": 99,
+    "date": "04/07/2022"
+  },
+  {
+    "id": 18,
+    "name": "Jane Smith",
+    "gender": "Female",
+    "total": 55,
+    "date": "30/08/2023"
+  },
+  {
+    "id": 19,
+    "name": "Jane Smith",
+    "gender": "Female",
+    "total": 194,
+    "date": "14/06/2023"
+  },
+  {
+    "id": 20,
+    "name": "Jane Smith",
+    "gender": "Female",
+    "total": 221,
+    "date": "01/09/2022"
+  },
+  {
+    "id": 21,
+    "name": "Michael Johnson",
+    "gender": "Male",
+    "total": 64,
+    "date": "03/08/2022"
+  },
+  {
+    "id": 22,
+    "name": "Michael Johnson",
+    "gender": "Male",
+    "total": 201,
+    "date": "18/12/2022"
+  },
+  {
+    "id": 23,
+    "name": "Michael Johnson",
+    "gender": "Male",
+    "total": 42,
+    "date": "31/01/2023"
+  },
+  {
+    "id": 24,
+    "name": "Michael Johnson",
+    "gender": "Male",
+    "total": 129,
+    "date": "19/06/2023"
+  },
+  {
+    "id": 25,
+    "name": "Michael Johnson",
+    "gender": "Male",
+    "total": 212,
+    "date": "24/07/2022"
+  },
+  {
+    "id": 26,
+    "name": "Michael Johnson",
+    "gender": "Male",
+    "total": 92,
+    "date": "14/03/2023"
+  },
+  {
+    "id": 27,
+    "name": "Michael Johnson",
+    "gender": "Male",
+    "total": 76,
+    "date": "30/07/2022"
+  },
+  {
+    "id": 28,
+    "name": "Michael Johnson",
+    "gender": "Male",
+    "total": 225,
+    "date": "03/09/2023"
+  },
+  {
+    "id": 29,
+    "name": "Michael Johnson",
+    "gender": "Male",
+    "total": 82,
+    "date": "21/03/2023"
+  },
+  {
+    "id": 30,
+    "name": "Michael Johnson",
+    "gender": "Male",
+    "total": 158,
+    "date": "05/06/2023"
+  },
+  {
+    "id": 31,
+    "name": "Sarah Williams",
+    "gender": "Female",
+    "total": 36,
+    "date": "08/08/2022"
+  },
+  {
+    "id": 32,
+    "name": "Sarah Williams",
+    "gender": "Female",
+    "total": 213,
+    "date": "20/12/2022"
+  },
+  {
+    "id": 33,
+    "name": "Sarah Williams",
+    "gender": "Female",
+    "total": 125,
+    "date": "28/01/2023"
+  },
+  {
+    "id": 34,
+    "name": "Sarah Williams",
+    "gender": "Female",
+    "total": 78,
+    "date": "06/06/2023"
+  },
+  {
+    "id": 35,
+    "name": "Sarah Williams",
+    "gender": "Female",
+    "total": 135,
+    "date": "19/07/2022"
+  },
+  {
+    "id": 36,
+    "name": "Sarah Williams",
+    "gender": "Female",
+    "total": 44,
+    "date": "10/03/2023"
+  },
+  {
+    "id": 37,
+    "name": "Sarah Williams",
+    "gender": "Female",
+    "total": 96,
+    "date": "17/08/2022"
+  },
+  {
+    "id": 38,
+    "name": "Sarah Williams",
+    "gender": "Female",
+    "total": 183,
+    "date": "10/09/2023"
+  },
+  {
+    "id": 39,
+    "name": "Sarah Williams",
+    "gender": "Female",
+    "total": 201,
+    "date": "12/03/2023"
+  },
+  {
+    "id": 40,
+    "name": "Sarah Williams",
+    "gender": "Female",
+    "total": 71,
+    "date": "07/06/2023"
+  },
+  {
+    "id": 41,
+    "name": "Christopher Brown",
+    "gender": "Male",
+    "total": 187,
+    "date": "11/08/2022"
+  },
+  {
+    "id": 42,
+    "name": "Christopher Brown",
+    "gender": "Male",
+    "total": 56,
+    "date": "13/12/2022"
+  },
+  {
+    "id": 43,
+    "name": "Christopher Brown",
+    "gender": "Male",
+    "total": 205,
+    "date": "27/01/2023"
+  },
+  {
+    "id": 44,
+    "name": "Christopher Brown",
+    "gender": "Male",
+    "total": 118,
+    "date": "12/06/2023"
+  },
+  {
+    "id": 45,
+    "name": "Christopher Brown",
+    "gender": "Male",
+    "total": 97,
+    "date": "27/07/2022"
+  },
+  {
+    "id": 46,
+    "name": "Christopher Brown",
+    "gender": "Male",
+    "total": 135,
+    "date": "18/03/2023"
+  },
+  {
+    "id": 47,
+    "name": "Christopher Brown",
+    "gender": "Male",
+    "total": 76,
+    "date": "02/08/2022"
+  },
+  {
+    "id": 48,
+    "name": "Christopher Brown",
+    "gender": "Male",
+    "total": 179,
+    "date": "04/09/2023"
+  },
+  {
+    "id": 49,
+    "name": "Christopher Brown",
+    "gender": "Male",
+    "total": 28,
+    "date": "27/03/2023"
+  },
+  {
+    "id": 50,
+    "name": "Christopher Brown",
+    "gender": "Male",
+    "total": 204,
+    "date": "13/06/2023"
+  },
+  {
+    "id": 51,
+    "name": "Emily Johnson",
+    "gender": "Female",
+    "total": 113,
+    "date": "16/08/2022"
+  },
+  {
+    "id": 52,
+    "name": "Emily Johnson",
+    "gender": "Female",
+    "total": 196,
+    "date": "17/12/2022"
+  },
+  {
+    "id": 53,
+    "name": "Emily Johnson",
+    "gender": "Female",
+    "total": 63,
+    "date": "30/01/2023"
+  },
+  {
+    "id": 54,
+    "name": "Emily Johnson",
+    "gender": "Female",
+    "total": 134,
+    "date": "07/06/2023"
+  },
+  {
+    "id": 55,
+    "name": "Emily Johnson",
+    "gender": "Female",
+    "total": 80,
+    "date": "18/07/2022"
+  },
+  {
+    "id": 56,
+    "name": "Emily Johnson",
+    "gender": "Female",
+    "total": 175,
+    "date": "12/03/2023"
+  },
+  {
+    "id": 57,
+    "name": "Emily Johnson",
+    "gender": "Female",
+    "total": 101,
+    "date": "29/07/2022"
+  },
+  {
+    "id": 58,
+    "name": "Emily Johnson",
+    "gender": "Female",
+    "total": 222,
+    "date": "05/09/2023"
+  },
+  {
+    "id": 59,
+    "name": "Emily Johnson",
+    "gender": "Female",
+    "total": 145,
+    "date": "19/03/2023"
+  },
+  {
+    "id": 60,
+    "name": "Emily Johnson",
+    "gender": "Female",
+    "total": 66,
+    "date": "08/06/2023"
+  },
+  {
+    "id": 61,
+    "name": "Daniel Miller",
+    "gender": "Male",
+    "total": 82,
+    "date": "06/08/2022"
+  },
+  {
+    "id": 62,
+    "name": "Daniel Miller",
+    "gender": "Male",
+    "total": 122,
+    "date": "21/12/2022"
+  },
+  {
+    "id": 63,
+    "name": "Daniel Miller",
+    "gender": "Male",
+    "total": 201,
+    "date": "25/01/2023"
+  },
+  {
+    "id": 64,
+    "name": "Daniel Miller",
+    "gender": "Male",
+    "total": 99,
+    "date": "13/06/2023"
+  },
+  {
+    "id": 65,
+    "name": "Daniel Miller",
+    "gender": "Male",
+    "total": 55,
+    "date": "28/07/2022"
+  },
+  {
+    "id": 66,
+    "name": "Daniel Miller",
+    "gender": "Male",
+    "total": 158,
+    "date": "21/03/2023"
+  },
+  {
+    "id": 67,
+    "name": "Daniel Miller",
+    "gender": "Male",
+    "total": 111,
+    "date": "01/08/2022"
+  },
+  {
+    "id": 68,
+    "name": "Daniel Miller",
+    "gender": "Male",
+    "total": 235,
+    "date": "06/09/2023"
+  },
+  {
+    "id": 69,
+    "name": "Daniel Miller",
+    "gender": "Male",
+    "total": 45,
+    "date": "20/03/2023"
+  },
+  {
+    "id": 70,
+    "name": "Daniel Miller",
+    "gender": "Male",
+    "total": 192,
+    "date": "02/06/2023"
+  },
+  {
+    "id": 71,
+    "name": "Jessica Brown",
+    "gender": "Female",
+    "total": 135,
+    "date": "23/08/2022"
+  },
+  {
+    "id": 72,
+    "name": "Jessica Brown",
+    "gender": "Female",
+    "total": 73,
+    "date": "14/12/2022"
+  },
+  {
+    "id": 73,
+    "name": "Jessica Brown",
+    "gender": "Female",
+    "total": 212,
+    "date": "24/01/2023"
+  },
+  {
+    "id": 74,
+    "name": "Jessica Brown",
+    "gender": "Female",
+    "total": 97,
+    "date": "08/06/2023"
+  },
+  {
+    "id": 75,
+    "name": "Jessica Brown",
+    "gender": "Female",
+    "total": 81,
+    "date": "16/07/2022"
+  },
+  {
+    "id": 76,
+    "name": "Jessica Brown",
+    "gender": "Female",
+    "total": 189,
+    "date": "14/03/2023"
+  },
+  {
+    "id": 77,
+    "name": "Jessica Brown",
+    "gender": "Female",
+    "total": 69,
+    "date": "31/07/2022"
+  },
+  {
+    "id": 78,
+    "name": "Jessica Brown",
+    "gender": "Female",
+    "total": 178,
+    "date": "07/09/2023"
+  },
+  {
+    "id": 79,
+    "name": "Jessica Brown",
+    "gender": "Female",
+    "total": 114,
+    "date": "14/03/2023"
+  },
+  {
+    "id": 80,
+    "name": "Jessica Brown",
+    "gender": "Female",
+    "total": 66,
+    "date": "09/06/2023"
+  },
+  {
+    "id": 81,
+    "name": "David Anderson",
+    "gender": "Male",
+    "total": 57,
+    "date": "07/08/2022"
+  },
+  {
+    "id": 82,
+    "name": "David Anderson",
+    "gender": "Male",
+    "total": 198,
+    "date": "19/12/2022"
+  },
+  {
+    "id": 83,
+    "name": "David Anderson",
+    "gender": "Male",
+    "total": 146,
+    "date": "29/01/2023"
+  },
+  {
+    "id": 84,
+    "name": "David Anderson",
+    "gender": "Male",
+    "total": 77,
+    "date": "09/06/2023"
+  },
+  {
+    "id": 85,
+    "name": "David Anderson",
+    "gender": "Male",
+    "total": 88,
+    "date": "14/07/2022"
+  },
+  {
+    "id": 86,
+    "name": "David Anderson",
+    "gender": "Male",
+    "total": 190,
+    "date": "15/03/2023"
+  },
+  {
+    "id": 87,
+    "name": "David Anderson",
+    "gender": "Male",
+    "total": 54,
+    "date": "01/08/2022"
+  },
+  {
+    "id": 88,
+    "name": "David Anderson",
+    "gender": "Male",
+    "total": 215,
+    "date": "07/09/2023"
+  },
+  {
+    "id": 89,
+    "name": "David Anderson",
+    "gender": "Male",
+    "total": 72,
+    "date": "08/03/2023"
+  },
+  {
+    "id": 90,
+    "name": "David Anderson",
+    "gender": "Male",
+    "total": 123,
+    "date": "12/06/2023"
+  },
+  {
+    "id": 91,
+    "name": "Jennifer Johnson",
+    "gender": "Female",
+    "total": 92,
+    "date": "12/08/2022"
+  },
+  {
+    "id": 92,
+    "name": "Jennifer Johnson",
+    "gender": "Female",
+    "total": 167,
+    "date": "22/12/2022"
+  },
+  {
+    "id": 93,
+    "name": "Jennifer Johnson",
+    "gender": "Female",
+    "total": 45,
+    "date": "26/01/2023"
+  },
+  {
+    "id": 94,
+    "name": "Jennifer Johnson",
+    "gender": "Female",
+    "total": 176,
+    "date": "01/07/2023"
+  },
+  {
+    "id": 95,
+    "name": "Jennifer Johnson",
+    "gender": "Female",
+    "total": 54,
+    "date": "16/07/2022"
+  },
+  {
+    "id": 96,
+    "name": "Jennifer Johnson",
+    "gender": "Female",
+    "total": 213,
+    "date": "16/03/2023"
+  },
+  {
+    "id": 97,
+    "name": "Jennifer Johnson",
+    "gender": "Female",
+    "total": 89,
+    "date": "26/07/2022"
+  },
+  {
+    "id": 98,
+    "name": "Jennifer Johnson",
+    "gender": "Female",
+    "total": 198,
+    "date": "09/09/2023"
+  },
+  {
+    "id": 99,
+    "name": "Jennifer Johnson",
+    "gender": "Female",
+    "total": 115,
+    "date": "11/03/2023"
+  },
+  {
+    "id": 100,
+    "name": "Jennifer Johnson",
+    "gender": "Female",
+    "total": 78,
+    "date": "14/06/2023"
+  }
+]
