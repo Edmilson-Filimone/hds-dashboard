@@ -8,7 +8,7 @@ import Playground from "./pages/Playground";
 
 function App() {
   //collapse sidebar function that will be passed and triggered in child component, basically readjust the grid layout on main page (parent)
-  const [collapse, setCollapse] = useState('sidebar-expand')
+  const [collapse, setCollapse] = useState('sidebar-collapse')
   const changeLayout = (collapseState) => {
     setCollapse(collapseState)
   }
